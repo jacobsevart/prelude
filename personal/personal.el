@@ -11,6 +11,9 @@
   (kbd "C-z")
   'helm-select-action) ; list actions using C-z
 
-(prelude-require-packages '(terraform-mode sml-mode latex-preview-pane))
+(prelude-require-packages '(terraform-mode
+                            sml-mode
+                            puppet-mode
+                            latex-preview-pane))
 
 (set-default-font "Inconsolata 14")
